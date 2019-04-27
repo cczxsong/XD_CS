@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Traxffic - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Users\Íõ\Desktop\Traxffic\QTH9054FUN .CPP'
+
+Creating temporary file "C:\Users\Íõ\AppData\Local\Temp\RSP9CD2.tmp" with contents
+[
+setupapi.lib /nologo /subsystem:windows /incremental:no /pdb:"Debug/Traxffic.pdb" /debug /machine:I386 /out:"../Debug/Traxffic.exe" /pdbtype:sept 
+".\Debug\QTH9054FUN .OBJ"
+".\Debug\StdAfx.obj"
+".\Debug\Traxffic.obj"
+".\Debug\TraxfficDlg.obj"
+".\Debug\Traxffic.res"
+]
+Creating command line "link.exe @"C:\Users\Íõ\AppData\Local\Temp\RSP9CD2.tmp""
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+
+
+
+<h3>Results</h3>
+Traxffic.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
