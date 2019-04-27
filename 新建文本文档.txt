@@ -1,0 +1,1 @@
+git@gitee.com:cczxsong/school_setting.git
