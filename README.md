@@ -1,3 +1,3 @@
 # 校内课设
 ## 课程作业
-[![Fork me on Gitee](https://gitee.com/cczxsong/school_setting/widgets/widget_2.svg)](https://gitee.com/cczxsong/school_setting)
+<a href='https://gitee.com/cczxsong/school_setting/stargazers'><img src='https://gitee.com/cczxsong/school_setting/badge/star.svg?theme=dark' alt='star'></img></a>
