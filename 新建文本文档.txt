@@ -1,1 +1,5 @@
 git@gitee.com:cczxsong/school_setting.git
+
+git add . 
+git commit -m "第一次上传"
+git push origin master
