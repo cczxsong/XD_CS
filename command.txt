@@ -1,4 +1,4 @@
-git@gitee.com:cczxsong/school_setting.git
+git clone git@gitee.com:cczxsong/school_setting.git
 
 git add . 
 git commit -m "第一次上传"
