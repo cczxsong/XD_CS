@@ -1,0 +1,19 @@
+vlan
+show vlan
+
+¾²Ì¬Â·ÓÉ
+show ip route
+
+DHCP
+show ip dhcp pool 
+
+nat
+show ip nat translations
+
+GRE
+nat
+show ip route
+
+ACL
+show ip access-lists
+
