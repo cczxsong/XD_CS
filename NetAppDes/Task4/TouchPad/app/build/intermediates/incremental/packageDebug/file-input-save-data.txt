@@ -1,0 +1,30 @@
+#Internal package file, do not edit.
+#Wed Jun 05 13:36:35 CST 2019
+2.base=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_853bf4a11b2703404880b03def410d894a5d8bca\\classes.dex
+5.set=DEX
+3.base=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7d69965850a9e32a2e20a0dad1f9693f5f71da9f\\classes.dex
+2.set=ANDROID_RESOURCE
+4.base=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
+7.set=ANDROID_RESOURCE
+count=9
+0.file=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml
+5.base=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_853bf4a11b2703404880b03def410d894a5d8bca
+8.file=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\mouse_right.png
+4.set=ANDROID_RESOURCE
+6.base=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7d69965850a9e32a2e20a0dad1f9693f5f71da9f
+1.file=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+1.set=ANDROID_RESOURCE
+7.base=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+6.set=DEX
+0.base=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.base=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\mouse_left.png
+3.set=ANDROID_RESOURCE
+1.base=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\mouse_middle.png
+8.set=ANDROID_RESOURCE
+0.set=ANDROID_RESOURCE

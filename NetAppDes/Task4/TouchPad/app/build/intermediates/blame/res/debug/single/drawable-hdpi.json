@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mouse_middle.png",
+        "source": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\drawable-hdpi\\mouse_middle.png"
+    },
+    {
+        "merged": "F:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mouse_right.png",
+        "source": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\drawable-hdpi\\mouse_right.png"
+    },
+    {
+        "merged": "F:\\AS_code\\TouchPad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mouse_left.png",
+        "source": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\drawable-hdpi\\mouse_left.png"
+    }
+]

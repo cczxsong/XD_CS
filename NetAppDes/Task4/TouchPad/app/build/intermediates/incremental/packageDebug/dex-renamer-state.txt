@@ -1,0 +1,7 @@
+#Wed Jun 05 13:36:35 CST 2019
+base.0=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_853bf4a11b2703404880b03def410d894a5d8bca
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7d69965850a9e32a2e20a0dad1f9693f5f71da9f\\classes.dex
+base.1=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7d69965850a9e32a2e20a0dad1f9693f5f71da9f
+file.0=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_853bf4a11b2703404880b03def410d894a5d8bca\\classes.dex

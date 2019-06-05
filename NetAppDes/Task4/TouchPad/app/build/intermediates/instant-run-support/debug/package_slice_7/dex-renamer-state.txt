@@ -1,0 +1,4 @@
+#Wed Jun 05 12:53:10 CST 2019
+base.0=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+renamed.0=classes.dex
+file.0=F\:\\AS_code\\TouchPad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

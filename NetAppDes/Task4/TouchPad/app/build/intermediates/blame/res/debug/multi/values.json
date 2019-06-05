@@ -1,0 +1,98 @@
+[
+    {
+        "outputFile": "F:\\AS_code\\TouchPad\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 103,
+                    "endColumn": 43,
+                    "endOffset": 142
+                },
+                "from": {
+                    "file": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 147,
+                    "endColumn": 51,
+                    "endOffset": 194
+                },
+                "from": {
+                    "file": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 355,
+                        "endColumn": 51,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 199,
+                    "endColumn": 46,
+                    "endOffset": 241
+                },
+                "from": {
+                    "file": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 246,
+                    "endColumn": 64,
+                    "endOffset": 306
+                },
+                "from": {
+                    "file": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 311,
+                    "endColumn": 48,
+                    "endOffset": 355
+                },
+                "from": {
+                    "file": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 360,
+                    "endColumn": 45,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "F:\\AS_code\\TouchPad\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  TrackPadDlg.cpp
+c:\users\王\desktop\trackpad\trackpaddlg.cpp(250): warning C4101: “SockAddrLen”: 未引用的局部变量
+c:\users\王\desktop\trackpad\trackpaddlg.cpp(249): warning C4101: “SockAddr”: 未引用的局部变量
+c:\users\王\desktop\trackpad\trackpaddlg.cpp(324): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+c:\users\王\desktop\trackpad\trackpaddlg.cpp(325): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+c:\users\王\desktop\trackpad\trackpaddlg.cpp(355): warning C4244: “=”: 从“double”转换到“DWORD”，可能丢失数据
+c:\users\王\desktop\trackpad\trackpaddlg.cpp(372): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1849): note: 参见“inet_ntoa”的声明
+  正在生成代码...
+  正在跳过...(未检测到相关更改)
+  TrackPad.cpp
+  CustomSocket.cpp
+CustomSocket.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  TrackPad.vcxproj -> C:\Users\王\Desktop\TrackPad\Debug\TrackPad.exe
