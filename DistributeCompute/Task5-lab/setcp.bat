@@ -1,0 +1,1 @@
+set classpath=%classpath%;C:\Hadoop\etc\hadoop;C:\Hadoop\share\hadoop\common;C:\Hadoop\share\hadoop\common\lib\*;C:\Hadoop\share\hadoop\common\*;C:\Hadoop\share\hadoop\hdfs;C:\Hadoop\share\hadoop\hdfs\lib\*;C:\Hadoop\share\hadoop\hdfs\*;C:\Hadoop\share\hadoop\yarn;C:\Hadoop\share\hadoop\yarn\lib\*;C:\Hadoop\share\hadoop\yarn\*;C:\Hadoop\share\hadoop\mapreduce\*

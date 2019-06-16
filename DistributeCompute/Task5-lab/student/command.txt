@@ -1,0 +1,21 @@
+
+hadoop fs -rm -r /input /output
+hadoop fs -mkdir /input
+hadoop fs -put student_score.txt /input
+del *.class
+rd output /s/q
+javac stuGrade.java
+jar cvf stuGrade.jar *.class
+hadoop jar stuGrade.jar stuGrade /input /output
+hadoop fs -get /output ./
+
+
+hadoop fs -rm -r /input /output
+hadoop fs -mkdir /input
+hadoop fs -put student_score.txt /input
+del *.class
+rd output /s/q
+javac -encoding UTF-8 StuGrd.java
+jar cvf StuGrd.jar *.class
+hadoop jar StuGrd.jar StuGrd /input /output
+hadoop fs -get /output ./

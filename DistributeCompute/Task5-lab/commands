@@ -1,0 +1,9 @@
+javac WordCount.java
+jar cvf mrtest.jar *.class
+hadoop fs -mkdir /input
+hadoop fs -mkdir /output
+hadoop fs -put .\input_file.txt /input
+hadoop jar .\mrtest.jar WordCount /input /output
+hadoop fs -ls /output
+hadoop fs -cat /output/part-r-00000
+hadoop fs -rm -r /output
