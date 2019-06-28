@@ -1,0 +1,25 @@
+[Application]
+WindowPlacement=0 1 -1 -1 -1 -1 1020 192 1660 951
+[Editor1]
+FileName=.\mylexer.l
+ReadOnly=0
+WindowPlacement1=0 1 -1 -1 -8 -31 156 156 1760 788
+WindowOrder1=3
+Position001=0 37
+Cursor001=8 60 8 60
+SyntaxColouring=1
+TargetSyntaxColouring=3
+[Editor2]
+FileName=..\..\mylexer\mylexer.l
+ReadOnly=0
+WindowPlacement1=0 1 -1 -1 -8 -31 26 26 442 469
+WindowOrder1=2
+Position001=0 1
+Cursor001=34 8 34 8
+SyntaxColouring=1
+TargetSyntaxColouring=3
+[Output]
+WindowPlacement1=2 3 -1 -1 -8 -31 52 52 468 495
+WindowOrder1=1
+Position1=0 1
+Cursor1=0 5 0 5
