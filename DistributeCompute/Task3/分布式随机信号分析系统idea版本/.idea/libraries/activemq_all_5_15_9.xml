@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="activemq-all-5.15.9">
+    <CLASSES>
+      <root url="jar://F:/大三下课程/分布式计算/tools/apache-activemq-5.15.9-bin/apache-activemq-5.15.9/activemq-all-5.15.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
