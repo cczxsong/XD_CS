@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"atest\startup_stm32f103x6.o"
+"atest\main.o"
+"atest\stm32f1xx_it.o"
+"atest\stm32f1xx_hal_msp.o"
+"atest\stm32f1xx_hal_gpio_ex.o"
+"atest\stm32f1xx_hal_adc.o"
+"atest\stm32f1xx_hal_adc_ex.o"
+"atest\stm32f1xx_hal_tim.o"
+"atest\stm32f1xx_hal_tim_ex.o"
+"atest\stm32f1xx_hal.o"
+"atest\stm32f1xx_hal_rcc.o"
+"atest\stm32f1xx_hal_rcc_ex.o"
+"atest\stm32f1xx_hal_gpio.o"
+"atest\stm32f1xx_hal_dma.o"
+"atest\stm32f1xx_hal_cortex.o"
+"atest\stm32f1xx_hal_pwr.o"
+"atest\stm32f1xx_hal_flash.o"
+"atest\stm32f1xx_hal_flash_ex.o"
+"atest\stm32f1xx_hal_exti.o"
+"atest\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "ATest\ATest.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ATest.map" -o ATest\ATest.axf
