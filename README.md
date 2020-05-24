@@ -1,7 +1,7 @@
 # 校内课设
 ## 课程作业
 <a href='https://gitee.com/cczxsong/school_setting/stargazers'><img src='https://gitee.com/cczxsong/school_setting/badge/star.svg?theme=dark' alt='star'></img></a>
-### 卑微求fork，求关注
+### 卑微在线求star，求fork，求关注 m(o_ _)m
 
 ### 更新日志
 2020.5.24 整理目录，从后面开始写更新日志 
