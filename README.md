@@ -29,3 +29,5 @@ github 同步仓库 https://github.com/cczxsong/XD_CS
 -  **离散数学Ⅱ**
 > 课件、课本以及试卷
 
+### 版权说明
+若侵犯权益，联系我并致歉
