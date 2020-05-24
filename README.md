@@ -26,4 +26,6 @@ github 同步仓库 https://github.com/cczxsong/XD_CS
 > 四次实验
 -  **软件工程** 
 > 超级马里奥
+-  **离散数学Ⅱ**
+> 课件、课本以及试卷
 
