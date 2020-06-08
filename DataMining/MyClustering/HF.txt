@@ -1,0 +1,188 @@
+import numpy as np
+from EXP.exp2_H_cluster.Utils import *
+import matplotlib.pyplot as plt
+import networkx as nx
+from scipy.cluster.hierarchy import dendrogram,linkage
+
+
+def show_graph(g):
+    nx.draw(g, with_labels=True,node_color=range(g.node.__len__()),node_size=300,width=2)
+    plt.show()
+
+def loaddata():
+    sdata = nx.read_gml(BASE_DIR_FOR_DATA+'karate.gml',label='id')
+    #show_graph(sdata)
+
+    len = sdata.nodes.__len__()
+    ADJ = np.zeros((len+1,len+1),dtype=np.bool)
+    for e in sdata.edges:
+        a,b = e
+        ADJ[a][b] = True
+        ADJ[b][a] = True
+    ADJ=ADJ.astype(np.float)
+    return savetofile('ADJ',ADJ)
+    pass
+def get_similarity(_adj)->'similarity-matrix':
+    '''
+    with some way make similarity measure
+    :param _adj:  linked matrix with edge true
+    :return:
+    '''
+    adj = np.array(_adj,dtype=np.float)
+    # common friend of any two vertex
+    conf = adj.dot(adj)
+    fv = np.sum(adj,axis=1).reshape((-1,1))
+    #multi of any two verte
+    mv = fv.dot(fv.T)
+    mv0 = (mv==0)+mv
+    s = 1-conf**2/mv0
+    return savetofile('similarity',s)
+CID=1
+ZID = 0
+def getZid():
+    global ZID
+    ZID += 1
+    return ZID - 1
+def getCid():
+    global CID
+    CID += 1
+    return CID-1
+class cluster:
+    child = []
+    cid=None
+    cdis = -1
+    idlist = set()
+    isleaf = False
+    def __init__(self,it=None,_cdis=0):
+        self.child = []
+        self.idlist= set()
+        self.isleaf = False
+        self.cdis = _cdis
+        self.cid = getCid()
+        if it is not None:
+            self.idlist.add(it)
+            self.child.append(it)
+            self.isleaf = True
+    def add(self,c):
+        self.idlist.update(c.idlist)
+        self.child.append(c)
+
+    def content(self):
+        return list(self.idlist)
+
+    def __str__(self):
+        return self.idlist.__str__()
+    def __repr__(self):
+        return self.idlist.__str__()
+
+def hierarchical_cluster(adj):
+    def distance(a, b):
+        dis = 0
+        cnt = 0
+        for x in a.idlist:
+            for y in b.idlist:
+                dis+=adj[x][y]
+                cnt+=1
+        assert cnt>0,'cnt is less than 1'
+        return dis/cnt
+    Cluster = []
+
+    for i in range(1,adj.shape[0]):
+        Cluster.append(cluster(i))
+    #  a,b,c,d
+    #  cid1,cid2,distance,totalcnt
+    Z = np.zeros((Cluster.__len__()-1, 4))
+
+    while Cluster.__len__()>1:
+        len = Cluster.__len__()
+        a = Cluster[0]
+        b = Cluster[1]
+        dis = distance(a,b)
+        for i in range(0,len):
+            for j in range(i+1,len):
+                td = distance(Cluster[i],Cluster[j])
+                if dis>td:
+                    a = Cluster[i]
+                    b = Cluster[j]
+                    dis = td
+        Cluster.remove(a)
+        Cluster.remove(b)
+        ab = cluster(None,dis)
+        ab.add(a)
+        ab.add(b)
+        Cluster.append(ab)
+        zid = getZid()
+        Z[zid] = np.array([a.cid-1,b.cid-1,dis,ab.idlist.__len__()])
+        #print(zid,Z[zid])
+
+    return Z,Cluster
+def findgroup(C,thr,ret=[])->'list':
+
+    def dfs(_c,ret):
+        if (_c.cdis<thr):
+            ret.append(_c)
+        else:
+            if _c.isleaf:
+                ret.append(_c)
+            else:
+                dfs(_c.child[0],ret)
+                dfs(_c.child[1],ret)
+    dfs(C[0],ret)
+    return ret
+
+
+def modularity(C,adj,dd=0.03)->'best group divided':
+    '''
+    use cluster c to find the max Q
+    :param C:
+    :return: best group for c
+    '''
+    esum = np.sum(adj)
+    def calc(rl):
+        '''use ret list to calc Q val'''
+        q = 0
+        M = np.zeros((rl.__len__(),rl.__len__()))
+        frs = 0
+        for idx,item in enumerate(rl):
+            for jdx,jtem in enumerate(rl):
+                for i in item.idlist:
+                    for j in jtem.idlist:
+                        M[idx][jdx] += adj[i][j]
+            frs += (M[idx][idx] + np.sum(M[idx])) ** 2
+        q = M.trace()/esum-frs/pow(2*esum,2)
+        return q
+    ret = []
+    thresold = 0
+    tq = 0
+    tret = []
+    while thresold<1:
+        tret = findgroup(C,thresold)
+        tq = calc(tret)
+        print('threshold Qval:',thresold,tq)
+        if tq > tq:
+            ret = tret
+            Q =tq
+        thresold+=dd
+    return ret
+
+def tests():
+    print("hello exp2 hierarchical")
+    adj = loaddata()
+    sm =get_similarity(adj)
+    #sm = fromdatafile('similarity')
+
+    z,c=hierarchical_cluster(sm)
+
+
+    BestG = modularity(c,adj)
+    print('best Q is:')
+    for idx,item in BestG:
+        print(idx,item)
+
+    dendrogram(z)
+    plt.show()
+    pass
+    print('end')
+
+
+
